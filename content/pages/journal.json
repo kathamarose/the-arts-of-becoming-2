@@ -1,0 +1,138 @@
+{
+  "id": "pg_gt2e9sxg0g",
+  "title": "The Journal",
+  "slug": "journal",
+  "seo": {
+    "title": "Journal"
+  },
+  "sections": [
+    {
+      "id": "sec_k1xb951awq",
+      "preset": "component/journal-journal-intro@1",
+      "label": "The Journal",
+      "anchor": "journal-intro",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_yq4p16qnwm",
+          "type": "component/journal-journal-intro",
+          "v": 1,
+          "fields": {
+            "title": "The Journal",
+            "text": "Field notes from the living edge."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_3xdcg6tby0",
+      "preset": "component/journal-territories@1",
+      "label": "Territories",
+      "anchor": "territories",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_epz86bkv2b",
+          "type": "component/journal-territories",
+          "v": 1,
+          "fields": {
+            "text": "I write about the territories I spend my life exploring:",
+            "lines": [
+              {
+                "lines": "being + becoming"
+              },
+              {
+                "lines": "nature + soul"
+              },
+              {
+                "lines": "embodiment"
+              },
+              {
+                "lines": "love + relationship"
+              },
+              {
+                "lines": "creativity"
+              },
+              {
+                "lines": "culture"
+              },
+              {
+                "lines": "earth"
+              },
+              {
+                "lines": "mystery"
+              },
+              {
+                "lines": "liberation"
+              },
+              {
+                "lines": "the practice of living"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_5eyp6c2ctv",
+      "preset": "component/journal-letters@1",
+      "label": "Letters from the Arts of Becoming",
+      "anchor": "letters",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_hkkzx22zz1",
+          "type": "component/journal-letters",
+          "v": 1,
+          "fields": {
+            "kicker": "Newsletter",
+            "heading": "Letters from the Arts of Becoming",
+            "text": "Essays, poetry, practices and invitations, delivered as they arrive."
+          }
+        }
+      ]
+    }
+  ]
+}

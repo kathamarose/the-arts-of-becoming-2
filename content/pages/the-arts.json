@@ -1,0 +1,286 @@
+{
+  "id": "pg_wrm52ntgd2",
+  "title": "The Arts",
+  "slug": "the-arts",
+  "sections": [
+    {
+      "id": "sec_4bv0d1x0sa",
+      "preset": "component/the-arts-arts-intro@1",
+      "label": "The Arts",
+      "anchor": "arts-intro",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_vywea95zxp",
+          "type": "component/the-arts-arts-intro",
+          "v": 1,
+          "fields": {
+            "title": "The Arts",
+            "text": "There are many paths for becoming. Here are the ones I practice, teach and create from."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_yt4wx7f7kd",
+      "preset": "component/the-arts-embodiment@1",
+      "label": "Embodiment + Practice",
+      "anchor": "embodiment",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_0ss347khga",
+          "type": "component/the-arts-embodiment",
+          "v": 1,
+          "fields": {
+            "heading": "Embodiment + Practice",
+            "heading2": "The body is a door.",
+            "text": "Yoga taught me early that self-knowledge is not only intellectual. We learn by breathing. Moving. Feeling. Pausing. Meeting resistance. Opening. Strengthening. Softening. Returning.",
+            "cards": [
+              {
+                "heading": "FlowAsana",
+                "text": "Alignment-based yoga + qi gong + intuitive movement + breath + stillness."
+              },
+              {
+                "heading": "Meditation",
+                "text": "Silent and guided practice."
+              },
+              {
+                "heading": "Return to Her",
+                "text": "Women's embodiment and feminine reclamation."
+              },
+              {
+                "heading": "Workshops",
+                "text": "Seasonal embodiment, relationship, sensuality, ritual and more."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_wngnbsnx20",
+      "preset": "component/the-arts-circles@1",
+      "label": "Courses + Circles",
+      "anchor": "circles",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_epwz88t2m9",
+          "type": "component/the-arts-circles",
+          "v": 1,
+          "fields": {
+            "heading": "Courses + Circles",
+            "heading2": "We become in relationship.",
+            "text": "Not all becoming needs to happen alone. There is medicine in practicing together. Being witnessed. Hearing another person's story. Recognizing ourselves in one another. Letting community become part of the mirror.",
+            "cards": [
+              {
+                "heading": "Ecstatic by Nature",
+                "text": "A seven-part earth, body and ecstatic embodiment course."
+              },
+              {
+                "heading": "Story Weaving",
+                "text": "Storytelling for self-actualization + collective becoming."
+              },
+              {
+                "heading": "Return to Her",
+                "text": "Women's embodiment, offered as a cohort."
+              },
+              {
+                "heading": "Seasonal Gatherings",
+                "text": "Whatever is alive now."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_qkn6mxcrdb",
+      "preset": "component/the-arts-earth@1",
+      "label": "Earth + Living Systems",
+      "anchor": "earth",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_kk2dc61cnq",
+          "type": "component/the-arts-earth",
+          "v": 1,
+          "fields": {
+            "heading": "Earth + Living Systems",
+            "heading2": "To tend life is to be tended by life.",
+            "paragraphs": [
+              {
+                "text": "Our becoming does not end at the skin. We live inside relationships with land, food, plants, seasons, homes, watersheds, communities and innumerable living beings."
+              },
+              {
+                "text": "My earth work is rooted in remembering those relationships, and creating landscapes and ways of living that participate more consciously in them."
+              }
+            ],
+            "cards": [
+              {
+                "heading": "Garden + Landscape Design"
+              },
+              {
+                "heading": "Herbalism + Plant Relationship"
+              },
+              {
+                "heading": "Seasonal + Regenerative Living"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_69qw6axqm1",
+      "preset": "component/the-arts-creative@1",
+      "label": "Creative Work",
+      "anchor": "creative",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_bjwpk2j7q8",
+          "type": "component/the-arts-creative",
+          "v": 1,
+          "fields": {
+            "heading": "Creative Work",
+            "heading2": "Creation is one of the ways Life knows itself.",
+            "lines": [
+              {
+                "lines": "Photography. Poetry. Writing."
+              },
+              {
+                "lines": "Music. Design. Visual worlds. Story."
+              }
+            ],
+            "text": "Some things I create as offerings. Others I create because they ask to exist. Welcome to the studio.",
+            "cards": [
+              {
+                "heading": "Poetry"
+              },
+              {
+                "heading": "Writing"
+              },
+              {
+                "heading": "Music"
+              },
+              {
+                "heading": "Design + Visual Identity"
+              },
+              {
+                "heading": "Collaborations"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_j5rp6tnc7m",
+      "preset": "component/the-arts-dark@1",
+      "label": "Not sure where to begin?",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_pn0nxk605b",
+          "type": "component/the-arts-dark",
+          "v": 1,
+          "fields": {
+            "heading": "Not sure where to begin?",
+            "text": "You don't need to know which art is yours. Tell me what is moving.",
+            "cta": {
+              "type": "page",
+              "page": "pg_8fjexcpefr"
+            },
+            "ctaLabel": "Inquire"
+          }
+        }
+      ]
+    }
+  ]
+}

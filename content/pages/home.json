@@ -1,0 +1,594 @@
+{
+  "id": "pg_xh2ayebtjg",
+  "title": "The Arts of Becoming",
+  "slug": "",
+  "seo": {
+    "description": "A living body of work devoted to the art of being human."
+  },
+  "sections": [
+    {
+      "id": "sec_n4v9qvm824",
+      "preset": "component/welcome@1",
+      "label": "The Arts of Becoming",
+      "anchor": "welcome",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_nxdfbj786q",
+          "type": "component/welcome",
+          "v": 1,
+          "fields": {
+            "kicker": "True To Essence presents",
+            "title": "The Arts of Becoming",
+            "paragraphs": [
+              {
+                "text": "A living body of work devoted to the art of being human."
+              },
+              {
+                "text": "Practices, experiences + creative works for remembering your nature, liberating what is alive, and bringing more of your truth into form."
+              }
+            ],
+            "medicine": "You are the medicine.",
+            "cta": {
+              "type": "page",
+              "page": "pg_xh2ayebtjg",
+              "anchor": "the-arts"
+            },
+            "ctaLabel": "Explore the Arts",
+            "cta2": {
+              "type": "page",
+              "page": "pg_kpzgwm4pmk"
+            },
+            "cta2Label": "Work With Me"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_eztp99ye10",
+      "preset": "component/premise@1",
+      "label": "There is an art to becoming who you are.",
+      "anchor": "premise",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_wtj3y3h2yt",
+          "type": "component/premise",
+          "v": 1,
+          "fields": {
+            "heading": "There is an art to becoming who you are.",
+            "lines": [
+              {
+                "lines": "Not becoming someone else."
+              },
+              {
+                "lines": "Not perfecting yourself into some final form."
+              }
+            ],
+            "text": "But learning to see what is here. To know what is true. To loosen what obscures it. To listen for what wants to move through you. And to cultivate a life that can hold more of who you actually are.",
+            "text2": "This is the heart of my work. A practice of remembering and becoming, again and again."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_exdw8ee30z",
+      "preset": "component/living-practice@1",
+      "label": "See · Liberate · Create · Cultivate",
+      "anchor": "living-practice",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_523q2nqxjh",
+          "type": "component/living-practice",
+          "v": 1,
+          "fields": {
+            "kicker": "A living practice",
+            "heading": "See · Liberate · Create · Cultivate",
+            "text": "We align. We wander. We listen. We return.",
+            "cards": [
+              {
+                "sub": "Awareness · Reflection · Self-study",
+                "heading": "See",
+                "text": "Meet what is actually here. Witness yourself, your patterns, your beauty, your stories, your desires, your edges and the life moving around you."
+              },
+              {
+                "sub": "Feeling · Reclamation · Release",
+                "heading": "Liberate",
+                "text": "Meet what constricts your aliveness. Uncover conditioning. Feel what has been waiting to be felt. Reclaim forgotten parts."
+              },
+              {
+                "sub": "Expression · Choice · Art",
+                "heading": "Create",
+                "text": "Give form to what you discover. Your voice. Your movement. Your work. Your imagery. Your relationships. Your next chapter."
+              },
+              {
+                "sub": "Practice · Integration · Stewardship",
+                "heading": "Cultivate",
+                "text": "Tend what you wish to become. Through repetition, relationship, ritual, nourishment and care, create the conditions in which a truer life can grow."
+              }
+            ],
+            "text2": "These are not steps. They are movements in a living spiral."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_pt2b4x5v5e",
+      "preset": "component/the-arts@1",
+      "label": "The Arts",
+      "anchor": "the-arts",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_6ega64wnx6",
+          "type": "component/the-arts",
+          "v": 1,
+          "fields": {
+            "heading": "The Arts",
+            "text": "There are many paths for becoming.",
+            "cards": [
+              {
+                "card": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "heading",
+                      "attrs": {
+                        "level": 3
+                      },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Embodiment + Practice"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Come home through the body.",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " Yoga, meditation, somatics, movement, sensuality, breath, nervous-system awareness and embodied self-study."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Explore Embodiment →"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "card": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "heading",
+                      "attrs": {
+                        "level": 3
+                      },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Story + Creative Expression"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Become through what you make and what you tell.",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " Writing, poetry, storytelling, visual creation, personal myth and the reclamation of authorship."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Explore Creative Work →"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "card": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "heading",
+                      "attrs": {
+                        "level": 3
+                      },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Earth + Cultivation"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Remember that you are nature by returning to relationship with nature.",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " Plant medicine, gardens, ecology, seasonal living, rewilding and regenerative ways of living."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Explore Cultivation →"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "card": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "heading",
+                      "attrs": {
+                        "level": 3
+                      },
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Courses + Circles"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "We become in relationship.",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": " There is medicine in practicing together, being witnessed, and letting community become part of the mirror."
+                        }
+                      ]
+                    },
+                    {
+                      "type": "paragraph",
+                      "content": [
+                        {
+                          "type": "text",
+                          "text": "Explore Circles →"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_5d4dsah49h",
+      "preset": "component/the-thread@1",
+      "label": "The Thread",
+      "anchor": "the-thread",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_s5d7a3a7sy",
+          "type": "component/the-thread",
+          "v": 1,
+          "fields": {
+            "kicker": "1:1 mentorship",
+            "heading": "The Thread",
+            "heading2": "One life. Many threads.",
+            "paragraphs": [
+              {
+                "text": "The Thread is a personalized mentorship for meeting the chapter you are actually living. There is no single curriculum for becoming."
+              },
+              {
+                "text": "We begin with what is alive: where you are, what is changing, what is asking for attention, what you long for, what you are becoming. From there, I draw from the arts and practices I have spent my life studying and living to shape a journey around you."
+              }
+            ],
+            "lines": [
+              {
+                "lines": "Embodiment. Story. Meditation. Yoga."
+              },
+              {
+                "lines": "Relationship. Sensuality. Nature."
+              },
+              {
+                "lines": "Creative practice. Ritual. Pattern tracking. Life design."
+              }
+            ],
+            "text": "We follow the thread.",
+            "cta": {
+              "type": "page",
+              "page": "pg_kpzgwm4pmk"
+            },
+            "ctaLabel": "Explore The Thread"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_njs61pw5ra",
+      "preset": "component/true-to-essence@1",
+      "label": "Photography for the evolutionary being.",
+      "anchor": "true-to-essence",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_jr2n2n57a8",
+          "type": "component/true-to-essence",
+          "v": 1,
+          "fields": {
+            "kicker": "Soulcentric Photography",
+            "heading": "Photography for the evolutionary being.",
+            "paragraphs": [
+              {
+                "text": "There are ways of knowing ourselves that thought alone cannot reach. Sometimes we need a mirror. Sometimes we need a stage. Sometimes we need to be witnessed becoming the thing we already feel ourselves becoming."
+              },
+              {
+                "text": "True To Essence is my photographic practice, and it lives in its own home."
+              }
+            ],
+            "cta": {
+              "type": "page",
+              "page": "pg_yp3z68kb1x"
+            },
+            "ctaLabel": "Meet True To Essence"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_d8yr6wd6g8",
+      "preset": "component/journal@1",
+      "label": "Field notes on being + becoming.",
+      "anchor": "journal",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_e5gy77q284",
+          "type": "component/journal",
+          "v": 1,
+          "fields": {
+            "kicker": "The Journal",
+            "heading": "Field notes on being + becoming.",
+            "text": "Essays, poetry, practices, observations and invitations from the living edge of the work.",
+            "cta": {
+              "type": "page",
+              "page": "pg_gt2e9sxg0g"
+            },
+            "ctaLabel": "Read the Journal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_372f3hbwh9",
+      "preset": "component/kathleen@1",
+      "label": "Hi, I'm Kathleen.",
+      "anchor": "kathleen",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_66sg2fmsrw",
+          "type": "component/kathleen",
+          "v": 1,
+          "fields": {
+            "heading": "Hi, I'm Kathleen.",
+            "text": "Artist, photographer, teacher, guide + regenerative Renaissance woman.",
+            "text2": "I have spent much of my life exploring the intimate dance between nature and soul. My work has moved through many forms: yoga and meditation, embodiment, healing arts, photography, storytelling, design, herbalism, permaculture, community-building and creative practice.",
+            "text3": "I used to wonder how they were all supposed to fit together. Eventually I understood:",
+            "text4": "the weaving is the work.",
+            "cta": {
+              "type": "page",
+              "page": "pg_xq22mpj50y"
+            },
+            "ctaLabel": "Meet Kathleen"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_2wngw94r2p",
+      "preset": "component/begin@1",
+      "label": "What is asking to become through you?",
+      "anchor": "begin",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_t2q096g96j",
+          "type": "component/begin",
+          "v": 1,
+          "fields": {
+            "heading": "What is asking to become through you?",
+            "cta": {
+              "type": "page",
+              "page": "pg_8fjexcpefr"
+            },
+            "ctaLabel": "Begin here"
+          }
+        }
+      ]
+    }
+  ]
+}

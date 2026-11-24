@@ -1,0 +1,66 @@
+{
+  "choices": {
+    "palette": {
+      "brand": "#9a5b3c",
+      "neutral": "warm",
+      "contrast": "standard",
+      "source": "brand"
+    },
+    "pairing": "cormorant-jost",
+    "density": "comfortable",
+    "shape": "round",
+    "buttons": "pill-solid",
+    "motion": "subtle",
+    "imageTreatment": "none",
+    "typography": {
+      "heading": {
+        "family": "Cormorant Garamond",
+        "category": "serif",
+        "italic": true
+      },
+      "body": {
+        "family": "Hanken Grotesk",
+        "category": "sans-serif"
+      },
+      "scale": {
+        "nav": {
+          "size": 15.2
+        },
+        "wordmark": {
+          "size": 24,
+          "font": "heading"
+        }
+      }
+    }
+  },
+  "overrides": {
+    "color": {
+      "background": {
+        "$value": "#fefdf5",
+        "$type": "color"
+      },
+      "text": {
+        "$value": "#3a2a20",
+        "$type": "color"
+      },
+      "accent": {
+        "$value": "#9a5b3c",
+        "$type": "color"
+      },
+      "dark": {
+        "background": {
+          "$value": "#3a2a20",
+          "$type": "color"
+        },
+        "text": {
+          "$value": "#fefdf5",
+          "$type": "color"
+        },
+        "heading": {
+          "$value": "#fefdf5",
+          "$type": "color"
+        }
+      }
+    }
+  }
+}

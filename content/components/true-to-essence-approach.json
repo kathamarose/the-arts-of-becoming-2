@@ -1,0 +1,45 @@
+{
+  "name": "true-to-essence-approach",
+  "label": "Soulcentric Photography",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "cards": {
+      "kind": "list",
+      "label": "Cards",
+      "fields": {
+        "heading": {
+          "kind": "text",
+          "label": "Heading"
+        },
+        "text": {
+          "kind": "text",
+          "label": "Text",
+          "multiline": true
+        }
+      },
+      "max": 100,
+      "itemLabel": "heading"
+    }
+  },
+  "defaults": {
+    "cards": [
+      {
+        "heading": "Soulcentric Photography",
+        "text": "It is less about perfect posing and more about presence. Less about constructing an image of who you should be and more about revealing something true."
+      },
+      {
+        "heading": "Portrait Medicine",
+        "text": "Within intimate portrait work, the camera becomes a mirror, the photograph becomes an artifact, and being witnessed becomes an opportunity to meet yourself differently."
+      }
+    ]
+  },
+  "template": "<section class=\"paper i-approach\"><div class=\"wrap\"><div class=\"grid\">{{#each cards}}<div class=\"card\"><h3>{{heading}}</h3><p>{{text}}</p></div>{{/each}}</div></div></section>",
+  "css": ":scope{--cream:var(--os-color-background);--paper:#f6f1e4;--brown:#472d1e;--ink:var(--os-color-text);--serif:'Cormorant Garamond',Georgia,serif;--sans:'Hanken Grotesk',system-ui,sans-serif;--gap:clamp(56px,9vw,120px)}\n:scope{color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.7}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\nh3{font-family:var(--serif);color:var(--brown);font-weight:500;line-height:1.15;margin:0 0 .5em}\nh3{font-size:1.6rem}\np{margin:0 0 1.1em;max-width:62ch}\n.wrap{max-width:1080px;margin:0 auto;padding:0 24px}\nsection{padding:var(--gap) 0}\n.paper{background:var(--paper)}\n.grid{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:2.2em}\n.card{background:var(--cream);border:1px solid #e3d6bd;border-radius:18px;padding:28px}\n.paper .card{background:var(--cream)}\n.card p:last-child{margin-bottom:0}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

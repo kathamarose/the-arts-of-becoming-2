@@ -1,0 +1,67 @@
+{
+  "name": "journal-territories",
+  "label": "Territories",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "text": {
+      "kind": "text",
+      "label": "Text"
+    },
+    "lines": {
+      "kind": "list",
+      "label": "Lines",
+      "fields": {
+        "lines": {
+          "kind": "text",
+          "label": "Lines"
+        }
+      },
+      "max": 100,
+      "itemLabel": "lines"
+    }
+  },
+  "defaults": {
+    "text": "I write about the territories I spend my life exploring:",
+    "lines": [
+      {
+        "lines": "being + becoming"
+      },
+      {
+        "lines": "nature + soul"
+      },
+      {
+        "lines": "embodiment"
+      },
+      {
+        "lines": "love + relationship"
+      },
+      {
+        "lines": "creativity"
+      },
+      {
+        "lines": "culture"
+      },
+      {
+        "lines": "earth"
+      },
+      {
+        "lines": "mystery"
+      },
+      {
+        "lines": "liberation"
+      },
+      {
+        "lines": "the practice of living"
+      }
+    ]
+  },
+  "template": "<section class=\"i-territories\"><div class=\"wrap center\"><p>{{text}}</p><div class=\"lines\">{{#each lines}}<span>{{lines}}</span>{{/each}}</div></div></section>",
+  "css": ":scope{--brown:#472d1e;--ink:var(--os-color-text);--serif:'Cormorant Garamond',Georgia,serif;--sans:'Hanken Grotesk',system-ui,sans-serif;--gap:clamp(56px,9vw,120px)}\n:scope{color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.7}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\np{margin:0 0 1.1em;max-width:62ch}\n.wrap{max-width:1080px;margin:0 auto;padding:0 24px}\nsection{padding:var(--gap) 0}\n.center{text-align:center}\n.center p{margin-left:auto;margin-right:auto}\n.lines{font-family:var(--serif);font-size:1.4rem;line-height:1.7;color:var(--brown)}\n.lines span{display:block}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

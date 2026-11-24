@@ -1,0 +1,92 @@
+{
+  "title": "The Arts of Becoming",
+  "tagline": "A living body of work devoted to the art of being human.",
+  "nav": [
+    {
+      "type": "page",
+      "page": "pg_xh2ayebtjg",
+      "label": "Home"
+    },
+    {
+      "type": "page",
+      "page": "pg_wrm52ntgd2",
+      "label": "The Arts"
+    },
+    {
+      "type": "page",
+      "page": "pg_kpzgwm4pmk",
+      "label": "The Thread"
+    },
+    {
+      "type": "page",
+      "page": "pg_yp3z68kb1x",
+      "label": "True To Essence"
+    },
+    {
+      "type": "page",
+      "page": "pg_gt2e9sxg0g",
+      "label": "Journal"
+    },
+    {
+      "type": "page",
+      "page": "pg_xq22mpj50y",
+      "label": "About"
+    },
+    {
+      "type": "page",
+      "page": "pg_8fjexcpefr",
+      "label": "Inquire"
+    }
+  ],
+  "header": {
+    "variant": "classic-left",
+    "sticky": false,
+    "transparentOnHero": false,
+    "mobileMenu": "fullscreen"
+  },
+  "footer": {
+    "id": "sec_ftnt05jrs5",
+    "preset": "component/site-footer@1",
+    "label": "Footer",
+    "layout": {
+      "mode": "stack",
+      "columns": {
+        "d": [
+          12
+        ]
+      },
+      "width": "full"
+    },
+    "style": {
+      "colorTheme": "light",
+      "padding": {
+        "d": "none"
+      }
+    },
+    "blocks": [
+      {
+        "id": "blk_vy16f7zzxk",
+        "type": "component/site-footer",
+        "v": 1,
+        "fields": {
+          "text": "The Arts of Becoming · by True To Essence",
+          "url": {
+            "type": "url",
+            "url": "https://www.truetoessence.com"
+          },
+          "urlLabel": "truetoessence.com"
+        }
+      }
+    ]
+  },
+  "seo": {
+    "titleTemplate": "%s — The Arts of Becoming",
+    "description": "A living body of work devoted to the art of being human."
+  },
+  "locale": "en",
+  "integrations": {
+    "analytics": false,
+    "bookingUrl": null,
+    "stripeConnected": false
+  }
+}

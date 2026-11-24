@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "brand": {
+    "name": "The Arts of Becoming"
+  },
+  "tokens": {
+    "colors": {
+      "cream": {
+        "value": "#fefdf5",
+        "role": "background"
+      },
+      "paper": {
+        "value": "#f6f1e4"
+      },
+      "brown": {
+        "value": "#472d1e"
+      },
+      "clay": {
+        "value": "#9a5b3c",
+        "role": "brand"
+      },
+      "sage": {
+        "value": "#7d8a6a"
+      },
+      "ink": {
+        "value": "#3a2a20",
+        "role": "text"
+      }
+    },
+    "fonts": {
+      "heading": {
+        "family": "Cormorant Garamond",
+        "google": true
+      },
+      "body": {
+        "family": "Hanken Grotesk",
+        "google": true
+      }
+    },
+    "type": {
+      "nav": {
+        "size": 15.2
+      },
+      "wordmark": {
+        "size": 24,
+        "font": "heading"
+      }
+    }
+  },
+  "rules": [
+    "The page's own sections were brought across as designer components: keep their look, edit their fields.",
+    "New sections: use the colours and fonts above through Site Styles (var(--os-color-…), var(--os-font-…))."
+  ],
+  "mapping": {
+    "notes": [
+      "Read your page’s styles: 6 colours, its fonts (Hanken Grotesk, Cormorant Garamond) and 2 text styles.",
+      "Your brand colour #9a5b3c leads the palette (buttons, links and accents).",
+      "Dark sections use your #3a2a20 as the ground with #fefdf5 text.",
+      "Page background #fefdf5, text #3a2a20.",
+      "Your fonts (Cormorant Garamond, Hanken Grotesk) are used as they are — free on Google Fonts and published with the site.",
+      "Text sizes kept: nav 15.2px, wordmark 24px.",
+      "6 colour pairings were nudged so all text stays readable (WCAG AA).",
+      "Body text contrast 13.4:1.",
+      "Your page's own colours and fonts were kept; the brand files you added are in the design system for Claude."
+    ],
+    "contrast": [
+      {
+        "theme": "brand",
+        "role": "background",
+        "from": "#9a5b3c",
+        "to": "#985a3b",
+        "against": "text"
+      },
+      {
+        "theme": "brand",
+        "role": "success",
+        "from": "#b5f8c2",
+        "to": "#b7fbc4",
+        "against": "background"
+      },
+      {
+        "theme": "brand",
+        "role": "warning",
+        "from": "#ffdeba",
+        "to": "#ffe7cb",
+        "against": "background"
+      },
+      {
+        "theme": "brand",
+        "role": "danger",
+        "from": "#ffdbd6",
+        "to": "#ffe5e1",
+        "against": "background"
+      },
+      {
+        "theme": "brand",
+        "role": "accent-hover",
+        "from": "#ebebeb",
+        "to": "#ededed",
+        "against": "accent-text"
+      },
+      {
+        "theme": "brand",
+        "role": "accent-pressed",
+        "from": "#d7d7d7",
+        "to": "#ededed",
+        "against": "accent-text"
+      }
+    ]
+  },
+  "components": {
+    "welcome": {
+      "purpose": "The Arts of Becoming (from the / page)",
+      "source": "page.zip"
+    },
+    "premise": {
+      "purpose": "There is an art to becoming who you are. (from the / page)",
+      "source": "page.zip"
+    },
+    "living-practice": {
+      "purpose": "See · Liberate · Create · Cultivate (from the / page)",
+      "source": "page.zip"
+    },
+    "the-arts": {
+      "purpose": "The Arts (from the / page)",
+      "source": "page.zip"
+    },
+    "the-thread": {
+      "purpose": "The Thread (from the / page)",
+      "source": "page.zip"
+    },
+    "true-to-essence": {
+      "purpose": "Photography for the evolutionary being. (from the / page)",
+      "source": "page.zip"
+    },
+    "journal": {
+      "purpose": "Field notes on being + becoming. (from the / page)",
+      "source": "page.zip"
+    },
+    "kathleen": {
+      "purpose": "Hi, I'm Kathleen. (from the / page)",
+      "source": "page.zip"
+    },
+    "begin": {
+      "purpose": "What is asking to become through you? (from the / page)",
+      "source": "page.zip"
+    },
+    "the-arts-arts-intro": {
+      "purpose": "The Arts (from the /the-arts page)",
+      "source": "page.zip"
+    },
+    "the-arts-embodiment": {
+      "purpose": "Embodiment + Practice (from the /the-arts page)",
+      "source": "page.zip"
+    },
+    "the-arts-circles": {
+      "purpose": "Courses + Circles (from the /the-arts page)",
+      "source": "page.zip"
+    },
+    "the-arts-earth": {
+      "purpose": "Earth + Living Systems (from the /the-arts page)",
+      "source": "page.zip"
+    },
+    "the-arts-creative": {
+      "purpose": "Creative Work (from the /the-arts page)",
+      "source": "page.zip"
+    },
+    "the-arts-dark": {
+      "purpose": "Not sure where to begin? (from the /the-arts page)",
+      "source": "page.zip"
+    },
+    "the-thread-thread-intro": {
+      "purpose": "The Thread (from the /the-thread page)",
+      "source": "page.zip"
+    },
+    "the-thread-thresholds": {
+      "purpose": "Thresholds (from the /the-thread page)",
+      "source": "page.zip"
+    },
+    "the-thread-not-a-curriculum": {
+      "purpose": "You are not a formula. (from the /the-thread page)",
+      "source": "page.zip"
+    },
+    "the-thread-the-threads": {
+      "purpose": "The threads we may draw from (from the /the-thread page)",
+      "source": "page.zip"
+    },
+    "the-thread-what-it-includes": {
+      "purpose": "What it may include (from the /the-thread page)",
+      "source": "page.zip"
+    },
+    "the-thread-the-container": {
+      "purpose": "The container (from the /the-thread page)",
+      "source": "page.zip"
+    },
+    "the-thread-begin": {
+      "purpose": "Begin with a conversation. (from the /the-thread page)",
+      "source": "page.zip"
+    },
+    "true-to-essence-tte-intro": {
+      "purpose": "True To Essence (from the /true-to-essence page)",
+      "source": "page.zip"
+    },
+    "true-to-essence-a-world-of-its-own": {
+      "purpose": "A world of its own. (from the /true-to-essence page)",
+      "source": "page.zip"
+    },
+    "true-to-essence-approach": {
+      "purpose": "Soulcentric Photography (from the /true-to-essence page)",
+      "source": "page.zip"
+    },
+    "true-to-essence-what-i-photograph": {
+      "purpose": "What I photograph (from the /true-to-essence page)",
+      "source": "page.zip"
+    },
+    "true-to-essence-dark": {
+      "purpose": "Come as you are. (from the /true-to-essence page)",
+      "source": "page.zip"
+    },
+    "journal-journal-intro": {
+      "purpose": "The Journal (from the /journal page)",
+      "source": "page.zip"
+    },
+    "journal-territories": {
+      "purpose": "Territories (from the /journal page)",
+      "source": "page.zip"
+    },
+    "journal-letters": {
+      "purpose": "Letters from the Arts of Becoming (from the /journal page)",
+      "source": "page.zip"
+    },
+    "about-about-intro": {
+      "purpose": "Kathleen Marie Rose (from the /about page)",
+      "source": "page.zip"
+    },
+    "about-renaissance": {
+      "purpose": "A regenerative Renaissance woman. (from the /about page)",
+      "source": "page.zip"
+    },
+    "about-devotion": {
+      "purpose": "A path of devotion (from the /about page)",
+      "source": "page.zip"
+    },
+    "about-thread-beneath": {
+      "purpose": "The thread beneath everything. (from the /about page)",
+      "source": "page.zip"
+    },
+    "inquire-inquire-intro": {
+      "purpose": "What is calling you? (from the /inquire page)",
+      "source": "page.zip"
+    },
+    "inquire-doors": {
+      "purpose": "I want support in my becoming. (from the /inquire page)",
+      "source": "page.zip"
+    },
+    "site-footer": {
+      "purpose": "Footer (from the footer)",
+      "source": "page.zip"
+    }
+  },
+  "sources": [
+    {
+      "kind": "html",
+      "name": "page.zip",
+      "format": "html",
+      "at": "2026-11-24T14:43:38.419Z"
+    }
+  ],
+  "updatedAt": "2026-11-24T14:43:38.419Z",
+  "brief": {
+    "about": "The Arts of Becoming is a living body of work by Kathleen Marie Rose: practices, experiences and creative works for remembering your nature, liberating what is alive, and bringing more of your truth into form. It includes embodiment and practice, courses and circles, earth and living systems, creative work, a writing journal, and The Thread, a personalized 1:1 mentorship. True To Essence (soulcentric photography) is part of this world but lives on its own site at truetoessence.com.",
+    "audience": "People at a threshold who want to remember who they are and live more truthfully. They should be able to quickly see what this is and where to enter: explore the arts, begin a conversation about The Thread, read the journal, or reach out.",
+    "feeling": [
+      "intimate",
+      "earthy",
+      "unhurried"
+    ],
+    "notes": "Built from Kathleen's documents: the old Become in Beauty site (earthy brown and cream, poetic voice), and the T2E repack draft (sitemap, copy). Artsofbecoming.com is its own site; True To Essence photography is a separate site at https://www.truetoessence.com and only referenced here. No prices shown. Inquiry email, journal (Substack) link and photos still to be added by Kathleen."
+  }
+}

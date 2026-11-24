@@ -1,0 +1,222 @@
+{
+  "id": "pg_xq22mpj50y",
+  "title": "Kathleen Marie Rose",
+  "slug": "about",
+  "seo": {
+    "title": "About"
+  },
+  "sections": [
+    {
+      "id": "sec_44axb2bpf8",
+      "preset": "component/about-about-intro@1",
+      "label": "Kathleen Marie Rose",
+      "anchor": "about-intro",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_644xq522jx",
+          "type": "component/about-about-intro",
+          "v": 1,
+          "fields": {
+            "title": "Kathleen Marie Rose",
+            "text": "The artist behind the weaving.",
+            "medicine": "I make beauty in reverence to the intimate dance of nature + soul, the human journey of remembering, and the liberation of Life."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_hwp9435bb2",
+      "preset": "component/about-renaissance@1",
+      "label": "A regenerative Renaissance woman.",
+      "anchor": "renaissance",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_j0yjs8ddbv",
+          "type": "component/about-renaissance",
+          "v": 1,
+          "fields": {
+            "heading": "A regenerative Renaissance woman.",
+            "text": "I am a photographer, embodiment teacher, writer, artist, gardener, designer, mentor and community weaver.",
+            "text2": "For much of my life I thought I needed to decide which one I was. Eventually I realized the question itself was too small. My work has never really been about any one medium. It is about",
+            "text3": "relationship",
+            "text4": ".",
+            "lines": [
+              {
+                "lines": "How we relate to ourselves."
+              },
+              {
+                "lines": "How we relate to the body."
+              },
+              {
+                "lines": "How we relate to what has happened to us."
+              },
+              {
+                "lines": "How we relate to expression."
+              },
+              {
+                "lines": "How we relate to one another."
+              },
+              {
+                "lines": "How we relate to the living Earth."
+              },
+              {
+                "lines": "How we relate to mystery."
+              }
+            ],
+            "text5": "And how those relationships shape who we become."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_bnwmgyebbw",
+      "preset": "component/about-devotion@1",
+      "label": "A path of devotion",
+      "anchor": "devotion",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_k5qsa5yszp",
+          "type": "component/about-devotion",
+          "v": 1,
+          "fields": {
+            "body": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 2
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "A path of devotion"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "My path began at age 17, when I discovered yoga. Through the returning of the truth I discovered within myself, I began to awaken to the truth beneath the masks of the world, and I knew I had a role to play in helping this human world heal and remember its true nature, from the inside out and the outside in."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "I devoted myself to multiple studies and practices in wellness arts, earth arts, community arts, mystic arts, and performing arts. I invested myself in the arts of rewilding, of returning to the original ways, and of learning how to bridge the magic of soul with the modern world of ego, without abandoning any reality."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Ultimately, I am here for this Great Remembering, which is also the Great Awakening, taking up my many hats in order to steward a revolution, an evolution, within self and culture. "
+                    },
+                    {
+                      "type": "text",
+                      "text": "We revolve to evolve.",
+                      "marks": [
+                        {
+                          "type": "italic"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_req4e914r4",
+      "preset": "component/about-thread-beneath@1",
+      "label": "The thread beneath everything.",
+      "anchor": "thread-beneath",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_3enykhw0jq",
+          "type": "component/about-thread-beneath",
+          "v": 1,
+          "fields": {
+            "heading": "The thread beneath everything.",
+            "text": "By tracking cycles and patterns, through the seasons and stars, I weave my listening into teachings, creative projects, and community and land stewardship. To remember the medicine we each uniquely are. To remember magic and beauty, even in the seemingly mundane. To remember what it means to truly become in beauty and live true to essence.",
+            "cta": {
+              "type": "page",
+              "page": "pg_8fjexcpefr"
+            },
+            "ctaLabel": "Say hello"
+          }
+        }
+      ]
+    }
+  ]
+}

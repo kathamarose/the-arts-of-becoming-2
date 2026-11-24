@@ -1,0 +1,237 @@
+{
+  "name": "the-arts",
+  "label": "The Arts",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "heading": {
+      "kind": "text",
+      "label": "Heading"
+    },
+    "text": {
+      "kind": "text",
+      "label": "Text"
+    },
+    "cards": {
+      "kind": "list",
+      "label": "Cards",
+      "fields": {
+        "card": {
+          "kind": "richText",
+          "label": "Card",
+          "marks": [
+            "bold",
+            "italic",
+            "link"
+          ],
+          "blocks": [
+            "paragraph",
+            "heading",
+            "bulletList",
+            "orderedList",
+            "blockquote"
+          ]
+        }
+      },
+      "max": 100
+    }
+  },
+  "defaults": {
+    "heading": "The Arts",
+    "text": "There are many paths for becoming.",
+    "cards": [
+      {
+        "card": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Embodiment + Practice"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Come home through the body.",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Yoga, meditation, somatics, movement, sensuality, breath, nervous-system awareness and embodied self-study."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Explore Embodiment →"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "card": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Story + Creative Expression"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Become through what you make and what you tell.",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Writing, poetry, storytelling, visual creation, personal myth and the reclamation of authorship."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Explore Creative Work →"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "card": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Earth + Cultivation"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Remember that you are nature by returning to relationship with nature.",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " Plant medicine, gardens, ecology, seasonal living, rewilding and regenerative ways of living."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Explore Cultivation →"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "card": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "heading",
+              "attrs": {
+                "level": 3
+              },
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Courses + Circles"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "We become in relationship.",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " There is medicine in practicing together, being witnessed, and letting community become part of the mirror."
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "Explore Circles →"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "template": "<section class=\"i-the-arts\"><div class=\"wrap\"><div class=\"center\"><h2>{{heading}}</h2><p>{{text}}</p></div><div class=\"grid\">{{#each cards}}{{rich card class=\"card\"}}{{/each}}</div></div></section>",
+  "css": ":scope{--cream:var(--os-color-background);--brown:#472d1e;--clay:var(--os-color-accent);--ink:var(--os-color-text);--serif:'Cormorant Garamond',Georgia,serif;--sans:'Hanken Grotesk',system-ui,sans-serif;--gap:clamp(56px,9vw,120px)}\n:scope{color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.7}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\na{color:var(--clay)}\nh2,h3{font-family:var(--serif);color:var(--brown);font-weight:500;line-height:1.15;margin:0 0 .5em}\nh2{font-size:clamp(2rem,4.5vw,3.1rem)}\nh3{font-size:1.6rem}\np{margin:0 0 1.1em;max-width:62ch}\n.wrap{max-width:1080px;margin:0 auto;padding:0 24px}\nsection{padding:var(--gap) 0}\n.center{text-align:center}\n.center p{margin-left:auto;margin-right:auto}\n.grid{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:2.2em}\n.card{background:var(--cream);border:1px solid #e3d6bd;border-radius:18px;padding:28px}\n.card p:last-child{margin-bottom:0}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

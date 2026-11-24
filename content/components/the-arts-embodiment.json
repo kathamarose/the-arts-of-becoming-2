@@ -1,0 +1,68 @@
+{
+  "name": "the-arts-embodiment",
+  "label": "Embodiment + Practice",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "heading": {
+      "kind": "text",
+      "label": "Heading"
+    },
+    "heading2": {
+      "kind": "text",
+      "label": "Heading 2"
+    },
+    "text": {
+      "kind": "text",
+      "label": "Text",
+      "multiline": true
+    },
+    "cards": {
+      "kind": "list",
+      "label": "Cards",
+      "fields": {
+        "heading": {
+          "kind": "text",
+          "label": "Heading"
+        },
+        "text": {
+          "kind": "text",
+          "label": "Text"
+        }
+      },
+      "max": 100,
+      "itemLabel": "heading"
+    }
+  },
+  "defaults": {
+    "heading": "Embodiment + Practice",
+    "heading2": "The body is a door.",
+    "text": "Yoga taught me early that self-knowledge is not only intellectual. We learn by breathing. Moving. Feeling. Pausing. Meeting resistance. Opening. Strengthening. Softening. Returning.",
+    "cards": [
+      {
+        "heading": "FlowAsana",
+        "text": "Alignment-based yoga + qi gong + intuitive movement + breath + stillness."
+      },
+      {
+        "heading": "Meditation",
+        "text": "Silent and guided practice."
+      },
+      {
+        "heading": "Return to Her",
+        "text": "Women's embodiment and feminine reclamation."
+      },
+      {
+        "heading": "Workshops",
+        "text": "Seasonal embodiment, relationship, sensuality, ritual and more."
+      }
+    ]
+  },
+  "template": "<section class=\"i-embodiment\"><div class=\"wrap\"><h2>{{heading}}</h2><h3 class=\"s-1\">{{heading2}}</h3><p>{{text}}</p><div class=\"grid\">{{#each cards}}<div class=\"card\"><h3>{{heading}}</h3><p>{{text}}</p></div>{{/each}}</div></div></section>",
+  "css": ":scope{--cream:var(--os-color-background);--brown:#472d1e;--ink:var(--os-color-text);--serif:'Cormorant Garamond',Georgia,serif;--sans:'Hanken Grotesk',system-ui,sans-serif;--gap:clamp(56px,9vw,120px)}\n:scope{color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.7}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\nh2,h3{font-family:var(--serif);color:var(--brown);font-weight:500;line-height:1.15;margin:0 0 .5em}\nh2{font-size:clamp(2rem,4.5vw,3.1rem)}\nh3{font-size:1.6rem}\np{margin:0 0 1.1em;max-width:62ch}\n.wrap{max-width:1080px;margin:0 auto;padding:0 24px}\nsection{padding:var(--gap) 0}\n.grid{display:grid;gap:24px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:2.2em}\n.card{background:var(--cream);border:1px solid #e3d6bd;border-radius:18px;padding:28px}\n.card p:last-child{margin-bottom:0}\n:scope:scope:scope .s-1{font-style:italic}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

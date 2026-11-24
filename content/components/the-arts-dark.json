@@ -1,0 +1,41 @@
+{
+  "name": "the-arts-dark",
+  "label": "Not sure where to begin?",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "heading": {
+      "kind": "text",
+      "label": "Heading"
+    },
+    "text": {
+      "kind": "text",
+      "label": "Text"
+    },
+    "cta": {
+      "kind": "link",
+      "label": "Button goes to"
+    },
+    "ctaLabel": {
+      "kind": "text",
+      "label": "Button text"
+    }
+  },
+  "defaults": {
+    "heading": "Not sure where to begin?",
+    "text": "You don't need to know which art is yours. Tell me what is moving.",
+    "cta": {
+      "type": "page",
+      "page": "pg_8fjexcpefr"
+    },
+    "ctaLabel": "Inquire"
+  },
+  "template": "<section class=\"dark\"><div class=\"wrap center\"><h2>{{heading}}</h2><p>{{text}}</p><div class=\"btns\"><a href=\"{{href cta}}\" class=\"btn alt s-1\">{{ctaLabel}}</a></div></div></section>",
+  "css": ":scope{--cream:var(--os-color-background);--brown:#472d1e;--clay:var(--os-color-accent);--ink:var(--os-color-text);--serif:'Cormorant Garamond',Georgia,serif;--sans:'Hanken Grotesk',system-ui,sans-serif;--gap:clamp(56px,9vw,120px)}\n:scope{color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.7}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\na{color:var(--clay)}\nh2{font-family:var(--serif);color:var(--brown);font-weight:500;line-height:1.15;margin:0 0 .5em}\nh2{font-size:clamp(2rem,4.5vw,3.1rem)}\np{margin:0 0 1.1em;max-width:62ch}\n.wrap{max-width:1080px;margin:0 auto;padding:0 24px}\nsection{padding:var(--gap) 0}\n.btns{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:1.6em}\n.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 28px;border-radius:999px;background:var(--brown);color:var(--cream);text-decoration:none;font-weight:500}\n.btn.alt{background:transparent;color:var(--brown);border:1.5px solid var(--brown)}\n.btn:hover{background:var(--clay);color:#fff;border-color:var(--clay)}\n.dark{background:var(--brown);color:#efe6d6}\n.dark h2{color:var(--cream)}\n.dark a{color:#e9c3a4}\n.center{text-align:center}\n.center p{margin-left:auto;margin-right:auto}\n:scope:scope:scope .s-1{color:var(--cream);border-color:var(--cream)}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "id": "pg_yp3z68kb1x",
+  "title": "True To Essence",
+  "slug": "true-to-essence",
+  "sections": [
+    {
+      "id": "sec_cpymn64w6m",
+      "preset": "component/true-to-essence-tte-intro@1",
+      "label": "True To Essence",
+      "anchor": "tte-intro",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_k9vy2v6d63",
+          "type": "component/true-to-essence-tte-intro",
+          "v": 1,
+          "fields": {
+            "kicker": "Soulcentric Photography for the Becoming",
+            "title": "True To Essence",
+            "text": "Expressive photography of people, their relationships + the worlds they make.",
+            "medicine": "Revolutionary photography for the evolutionary being.",
+            "cta": {
+              "type": "url",
+              "url": "https://www.truetoessence.com"
+            },
+            "ctaLabel": "Visit truetoessence.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_crmyzaay6e",
+      "preset": "component/true-to-essence-a-world-of-its-own@1",
+      "label": "A world of its own.",
+      "anchor": "a-world-of-its-own",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_c481xfdg8q",
+          "type": "component/true-to-essence-a-world-of-its-own",
+          "v": 1,
+          "fields": {
+            "body": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 2
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "A world of its own."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "True To Essence is part of The Arts of Becoming, and it lives in its own home, with its own portfolio, sessions and way of working."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Here, the camera becomes more than documentation. It becomes mirror, witness, stage, archive and play. Rather than asking you to perform for the camera, I create space for you to move, explore, play, feel, relate + be seen, to make images that feel like you."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_c4rt16fpbm",
+      "preset": "component/true-to-essence-approach@1",
+      "label": "Soulcentric Photography",
+      "anchor": "approach",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_y42pxb6knm",
+          "type": "component/true-to-essence-approach",
+          "v": 1,
+          "fields": {
+            "cards": [
+              {
+                "heading": "Soulcentric Photography",
+                "text": "It is less about perfect posing and more about presence. Less about constructing an image of who you should be and more about revealing something true."
+              },
+              {
+                "heading": "Portrait Medicine",
+                "text": "Within intimate portrait work, the camera becomes a mirror, the photograph becomes an artifact, and being witnessed becomes an opportunity to meet yourself differently."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_zmkek8s5fq",
+      "preset": "component/true-to-essence-what-i-photograph@1",
+      "label": "What I photograph",
+      "anchor": "what-i-photograph",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_99q0g2taya",
+          "type": "component/true-to-essence-what-i-photograph",
+          "v": 1,
+          "fields": {
+            "heading": "What I photograph",
+            "cards": [
+              {
+                "heading": "Portraiture"
+              },
+              {
+                "heading": "Brand"
+              },
+              {
+                "heading": "Love + Kinship"
+              },
+              {
+                "heading": "Events"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_8cfx0gn70s",
+      "preset": "component/true-to-essence-dark@1",
+      "label": "Come as you are.",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_jx0a9pgtk4",
+          "type": "component/true-to-essence-dark",
+          "v": 1,
+          "fields": {
+            "heading": "Come as you are.",
+            "text": "We will make something from there.",
+            "cta": {
+              "type": "url",
+              "url": "https://www.truetoessence.com"
+            },
+            "ctaLabel": "Enter True To Essence"
+          }
+        }
+      ]
+    }
+  ]
+}

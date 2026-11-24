@@ -1,0 +1,54 @@
+{
+  "name": "premise",
+  "label": "There is an art to becoming who you are.",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "heading": {
+      "kind": "text",
+      "label": "Heading"
+    },
+    "lines": {
+      "kind": "list",
+      "label": "Lines",
+      "fields": {
+        "lines": {
+          "kind": "text",
+          "label": "Lines"
+        }
+      },
+      "max": 100,
+      "itemLabel": "lines"
+    },
+    "text": {
+      "kind": "text",
+      "label": "Text",
+      "multiline": true
+    },
+    "text2": {
+      "kind": "text",
+      "label": "Text 2"
+    }
+  },
+  "defaults": {
+    "heading": "There is an art to becoming who you are.",
+    "lines": [
+      {
+        "lines": "Not becoming someone else."
+      },
+      {
+        "lines": "Not perfecting yourself into some final form."
+      }
+    ],
+    "text": "But learning to see what is here. To know what is true. To loosen what obscures it. To listen for what wants to move through you. And to cultivate a life that can hold more of who you actually are.",
+    "text2": "This is the heart of my work. A practice of remembering and becoming, again and again."
+  },
+  "template": "<section class=\"i-premise\"><div class=\"wrap center\"><h2>{{heading}}</h2><div class=\"lines\">{{#each lines}}<span>{{lines}}</span>{{/each}}</div><p class=\"s-1\">{{text}}</p><p>{{text2}}</p></div></section>",
+  "css": ":scope{--brown:#472d1e;--ink:var(--os-color-text);--serif:'Cormorant Garamond',Georgia,serif;--sans:'Hanken Grotesk',system-ui,sans-serif;--gap:clamp(56px,9vw,120px)}\n:scope{color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.7}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\nh2{font-family:var(--serif);color:var(--brown);font-weight:500;line-height:1.15;margin:0 0 .5em}\nh2{font-size:clamp(2rem,4.5vw,3.1rem)}\np{margin:0 0 1.1em;max-width:62ch}\n.wrap{max-width:1080px;margin:0 auto;padding:0 24px}\nsection{padding:var(--gap) 0}\n.center{text-align:center}\n.center p{margin-left:auto;margin-right:auto}\n.lines{font-family:var(--serif);font-size:1.4rem;line-height:1.7;color:var(--brown)}\n.lines span{display:block}\n:scope:scope:scope .s-1{margin-top:1.6em}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

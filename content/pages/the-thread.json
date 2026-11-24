@@ -1,0 +1,452 @@
+{
+  "id": "pg_kpzgwm4pmk",
+  "title": "The Thread",
+  "slug": "the-thread",
+  "sections": [
+    {
+      "id": "sec_t4t135a9wa",
+      "preset": "component/the-thread-thread-intro@1",
+      "label": "The Thread",
+      "anchor": "thread-intro",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_ewabxp4fsc",
+          "type": "component/the-thread-thread-intro",
+          "v": 1,
+          "fields": {
+            "title": "The Thread",
+            "text": "A personalized 1:1 mentorship in the art of becoming.",
+            "medicine": "A personalized practice of True Nature Alignment."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_9jbddd0k0e",
+      "preset": "component/the-thread-thresholds@1",
+      "label": "Thresholds",
+      "anchor": "thresholds",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_1s7nkn8sns",
+          "type": "component/the-thread-thresholds",
+          "v": 1,
+          "fields": {
+            "body": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "There are seasons when you know something is changing, but you can't quite name what the next shape is."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Old ways no longer fit. Something is asking to be felt, released, claimed, created or lived differently."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "You may not need another system to follow. You may need space to hear yourself."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The Thread is a private mentorship for those thresholds.",
+                      "marks": [
+                        {
+                          "type": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": " Together, we listen for what is most alive and follow it."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_rkvxm515n9",
+      "preset": "component/the-thread-not-a-curriculum@1",
+      "label": "You are not a formula.",
+      "anchor": "not-a-curriculum",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_xc0hkn9p3p",
+          "type": "component/the-thread-not-a-curriculum",
+          "v": 1,
+          "fields": {
+            "kicker": "This is not a curriculum",
+            "heading": "You are not a formula.",
+            "text": "Your life does not happen in modules. So this work does not begin by deciding which predetermined sequence you should complete. We begin with you.",
+            "lines": [
+              {
+                "lines": "Your present season. Your history. Your body."
+              },
+              {
+                "lines": "Your relationships. Your patterns. Your desires."
+              },
+              {
+                "lines": "Your questions. Your gifts. Your edge."
+              }
+            ],
+            "text2": "Then we weave together the practices most relevant to what wants to happen next."
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_mk91jyrkn3",
+      "preset": "component/the-thread-the-threads@1",
+      "label": "The threads we may draw from",
+      "anchor": "the-threads",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_aywrf152ed",
+          "type": "component/the-thread-the-threads",
+          "v": 1,
+          "fields": {
+            "heading": "The threads we may draw from",
+            "text": "You don't choose one before we begin. These are simply examples of the terrain. The work follows the thread between them.",
+            "cards": [
+              {
+                "cell": "Thread"
+              },
+              {
+                "cell": "What we explore"
+              }
+            ],
+            "rows": [
+              {
+                "cards": [
+                  {
+                    "cell": "The Art of Life"
+                  },
+                  {
+                    "cell": "direction, purpose, rhythm, values, choices, lifestyle + alignment"
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "cell": "Embodied Liberation"
+                  },
+                  {
+                    "cell": "body, emotion, conditioning, nervous system, expression + freedom"
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "cell": "The Threshold"
+                  },
+                  {
+                    "cell": "transitions, endings, beginnings, identity shifts + rites of passage"
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "cell": "The Practice"
+                  },
+                  {
+                    "cell": "yoga, meditation, breath, ritual + everyday devotion"
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "cell": "Truth in Love"
+                  },
+                  {
+                    "cell": "intimacy, communication, relational patterns, boundaries + belonging"
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "cell": "The Feminine"
+                  },
+                  {
+                    "cell": "receptivity, cycles, sensuality, womb wisdom, sovereignty + expression"
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "cell": "The Mystic"
+                  },
+                  {
+                    "cell": "intuition, symbolism, ritual, divination, mystery + spiritual relationship"
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "cell": "The Sensitive Self"
+                  },
+                  {
+                    "cell": "boundaries, sensitivity, discernment, energetic awareness + grounding"
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "cell": "The Creator"
+                  },
+                  {
+                    "cell": "artistry, voice, creative blocks, visibility, expression + bringing vision into form"
+                  }
+                ]
+              },
+              {
+                "cards": [
+                  {
+                    "cell": "Nature + Belonging"
+                  },
+                  {
+                    "cell": "ecology, seasons, rewilding, place, relationship with Earth + living systems"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_f7rmhs04df",
+      "preset": "component/the-thread-what-it-includes@1",
+      "label": "What it may include",
+      "anchor": "what-it-includes",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_grsy0a1z2z",
+          "type": "component/the-thread-what-it-includes",
+          "v": 1,
+          "fields": {
+            "body": {
+              "type": "doc",
+              "content": [
+                {
+                  "type": "heading",
+                  "attrs": {
+                    "level": 2
+                  },
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "What it may include"
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "The work can move between conversation and practice. One session may be primarily reflective. Another may involve movement or embodied inquiry. Another may involve mapping patterns, or become ritual. Another may involve creative practice, relationship inquiry, meditation, nature connection or tangible restructuring of your life."
+                    }
+                  ]
+                },
+                {
+                  "type": "paragraph",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "Between sessions there can be personalized practices such as writing prompts, rituals, meditation, movement, observation or experiments in everyday life."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_rzhpspa2wr",
+      "preset": "component/the-thread-the-container@1",
+      "label": "The container",
+      "anchor": "the-container",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_zvfcmvmxzc",
+          "type": "component/the-thread-the-container",
+          "v": 1,
+          "fields": {
+            "heading": "The container",
+            "cards": [
+              {
+                "sub": "3 months",
+                "heading": "The Season",
+                "text": "The principal container. Enough time to establish trust, follow a meaningful arc and actually integrate change."
+              },
+              {
+                "sub": "6 months",
+                "heading": "The Deepening",
+                "text": "For people moving through major life transformation or wanting ongoing integration."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "sec_1hep5admby",
+      "preset": "component/the-thread-begin@1",
+      "label": "Begin with a conversation.",
+      "anchor": "begin",
+      "layout": {
+        "mode": "stack",
+        "columns": {
+          "d": [
+            12
+          ]
+        },
+        "width": "full"
+      },
+      "style": {
+        "colorTheme": "light",
+        "padding": {
+          "d": "none"
+        }
+      },
+      "blocks": [
+        {
+          "id": "blk_z4er8wfeb4",
+          "type": "component/the-thread-begin",
+          "v": 1,
+          "fields": {
+            "heading": "Begin with a conversation.",
+            "text": "We find the living thread and follow it.",
+            "cta": {
+              "type": "page",
+              "page": "pg_8fjexcpefr"
+            },
+            "ctaLabel": "Inquire about The Thread"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "true-to-essence-a-world-of-its-own",
+  "label": "A world of its own.",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "body": {
+      "kind": "richText",
+      "label": "Body",
+      "marks": [
+        "bold",
+        "italic",
+        "link"
+      ],
+      "blocks": [
+        "paragraph",
+        "heading",
+        "bulletList",
+        "orderedList",
+        "blockquote"
+      ]
+    }
+  },
+  "defaults": {
+    "body": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "heading",
+          "attrs": {
+            "level": 2
+          },
+          "content": [
+            {
+              "type": "text",
+              "text": "A world of its own."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "True To Essence is part of The Arts of Becoming, and it lives in its own home, with its own portfolio, sessions and way of working."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "type": "text",
+              "text": "Here, the camera becomes more than documentation. It becomes mirror, witness, stage, archive and play. Rather than asking you to perform for the camera, I create space for you to move, explore, play, feel, relate + be seen, to make images that feel like you."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "template": "<section class=\"i-a-world-of-its-own\">{{rich body class=\"wrap center\"}}</section>",
+  "css": ":scope{--brown:#472d1e;--ink:var(--os-color-text);--serif:'Cormorant Garamond',Georgia,serif;--sans:'Hanken Grotesk',system-ui,sans-serif;--gap:clamp(56px,9vw,120px)}\n:scope{color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.7}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\nh2{font-family:var(--serif);color:var(--brown);font-weight:500;line-height:1.15;margin:0 0 .5em}\nh2{font-size:clamp(2rem,4.5vw,3.1rem)}\np{margin:0 0 1.1em;max-width:62ch}\n.wrap{max-width:1080px;margin:0 auto;padding:0 24px}\nsection{padding:var(--gap) 0}\n.center{text-align:center}\n.center p{margin-left:auto;margin-right:auto}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}

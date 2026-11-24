@@ -1,0 +1,170 @@
+{
+  "name": "the-thread-the-threads",
+  "label": "The threads we may draw from",
+  "description": "Brought across from a page made elsewhere; every word, picture and link is a field.",
+  "version": 1,
+  "fields": {
+    "heading": {
+      "kind": "text",
+      "label": "Heading"
+    },
+    "text": {
+      "kind": "text",
+      "label": "Text",
+      "multiline": true
+    },
+    "cards": {
+      "kind": "list",
+      "label": "Cards",
+      "fields": {
+        "cell": {
+          "kind": "text",
+          "label": "Cell"
+        }
+      },
+      "max": 100,
+      "itemLabel": "cell"
+    },
+    "rows": {
+      "kind": "list",
+      "label": "Rows",
+      "fields": {
+        "cards": {
+          "kind": "list",
+          "label": "Cards",
+          "fields": {
+            "cell": {
+              "kind": "text",
+              "label": "Cell"
+            }
+          },
+          "max": 100,
+          "itemLabel": "cell"
+        }
+      },
+      "max": 100
+    }
+  },
+  "defaults": {
+    "heading": "The threads we may draw from",
+    "text": "You don't choose one before we begin. These are simply examples of the terrain. The work follows the thread between them.",
+    "cards": [
+      {
+        "cell": "Thread"
+      },
+      {
+        "cell": "What we explore"
+      }
+    ],
+    "rows": [
+      {
+        "cards": [
+          {
+            "cell": "The Art of Life"
+          },
+          {
+            "cell": "direction, purpose, rhythm, values, choices, lifestyle + alignment"
+          }
+        ]
+      },
+      {
+        "cards": [
+          {
+            "cell": "Embodied Liberation"
+          },
+          {
+            "cell": "body, emotion, conditioning, nervous system, expression + freedom"
+          }
+        ]
+      },
+      {
+        "cards": [
+          {
+            "cell": "The Threshold"
+          },
+          {
+            "cell": "transitions, endings, beginnings, identity shifts + rites of passage"
+          }
+        ]
+      },
+      {
+        "cards": [
+          {
+            "cell": "The Practice"
+          },
+          {
+            "cell": "yoga, meditation, breath, ritual + everyday devotion"
+          }
+        ]
+      },
+      {
+        "cards": [
+          {
+            "cell": "Truth in Love"
+          },
+          {
+            "cell": "intimacy, communication, relational patterns, boundaries + belonging"
+          }
+        ]
+      },
+      {
+        "cards": [
+          {
+            "cell": "The Feminine"
+          },
+          {
+            "cell": "receptivity, cycles, sensuality, womb wisdom, sovereignty + expression"
+          }
+        ]
+      },
+      {
+        "cards": [
+          {
+            "cell": "The Mystic"
+          },
+          {
+            "cell": "intuition, symbolism, ritual, divination, mystery + spiritual relationship"
+          }
+        ]
+      },
+      {
+        "cards": [
+          {
+            "cell": "The Sensitive Self"
+          },
+          {
+            "cell": "boundaries, sensitivity, discernment, energetic awareness + grounding"
+          }
+        ]
+      },
+      {
+        "cards": [
+          {
+            "cell": "The Creator"
+          },
+          {
+            "cell": "artistry, voice, creative blocks, visibility, expression + bringing vision into form"
+          }
+        ]
+      },
+      {
+        "cards": [
+          {
+            "cell": "Nature + Belonging"
+          },
+          {
+            "cell": "ecology, seasons, rewilding, place, relationship with Earth + living systems"
+          }
+        ]
+      }
+    ]
+  },
+  "template": "<section class=\"i-the-threads\"><div class=\"wrap\"><h2>{{heading}}</h2><p>{{text}}</p><div class=\"threads t-table\"><div class=\"t-thead\"><div class=\"t-tr\">{{#each cards}}<div class=\"t-th\">{{cell}}</div>{{/each}}</div></div><div class=\"t-tbody\">{{#each rows}}<div class=\"t-tr\">{{#each cards}}<div class=\"t-td\">{{cell}}</div>{{/each}}</div>{{/each}}</div></div></div></section>",
+  "css": ":scope{--brown:#472d1e;--ink:var(--os-color-text);--serif:'Cormorant Garamond',Georgia,serif;--sans:'Hanken Grotesk',system-ui,sans-serif;--gap:clamp(56px,9vw,120px)}\n:scope{color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.7}\n.t-table{display:table;border-collapse:collapse}\n.t-thead{display:table-header-group}\n.t-tr{display:table-row}\n.t-th{display:table-cell;padding:1px;font-weight:bold;text-align:center}\n.t-tbody{display:table-row-group}\n.t-td{display:table-cell;padding:1px}\n:where(h1,h2,h3,h4,h5,h6){color:inherit;font-family:inherit;font-weight:bold;font-style:inherit;letter-spacing:normal;text-transform:none;line-height:inherit;text-wrap:wrap}\n:where(h1){font-size:2em}:where(h2){font-size:1.5em}:where(h3){font-size:1.17em}:where(h4){font-size:1em}:where(h5){font-size:.83em}:where(h6){font-size:.67em}\n:where(.os-ci){display:inline-block;max-width:100%;vertical-align:middle;aspect-ratio:auto}\n.os-ci>picture{display:contents}\n.os-ci img{display:block;width:100%;height:100%;object-fit:inherit;object-position:inherit;border-radius:inherit}\n*{box-sizing:border-box}\nh2{font-family:var(--serif);color:var(--brown);font-weight:500;line-height:1.15;margin:0 0 .5em}\nh2{font-size:clamp(2rem,4.5vw,3.1rem)}\np{margin:0 0 1.1em;max-width:62ch}\n.wrap{max-width:1080px;margin:0 auto;padding:0 24px}\nsection{padding:var(--gap) 0}\n.threads{width:100%;border-collapse:collapse;margin-top:1.6em}\n.threads [class~=\"t-th\"],.threads [class~=\"t-td\"]{text-align:left;padding:14px 12px;border-bottom:1px solid #e3d6bd;vertical-align:top}\n.threads [class~=\"t-td\"]:first-child{font-family:var(--serif);font-size:1.3rem;color:var(--brown);white-space:nowrap}\n@media (max-width:720px){.threads [class~=\"t-td\"]:first-child{white-space:normal}}\n@media (max-width:720px){.threads,.threads [class~=\"t-tbody\"],.threads [class~=\"t-tr\"],.threads [class~=\"t-td\"],.threads [class~=\"t-th\"]{display:block}}\n@media (max-width:720px){.threads [class~=\"t-thead\"]{display:none}}\n@media (max-width:720px){.threads [class~=\"t-tr\"]{padding:10px 0;border-bottom:1px solid #e3d6bd}}\n@media (max-width:720px){.threads [class~=\"t-td\"]{border:0;padding:2px 0}}",
+  "section": {
+    "width": "full",
+    "padding": {
+      "d": "none"
+    }
+  }
+}
